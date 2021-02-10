@@ -40,9 +40,9 @@ class App extends Component {
             <CardActionArea>
                 <CardMedia
                 className={makeStyles.media}
-                image={item.image}
             />
             <CardContent>
+                <img src={item.image}></img>
                 <Typography gutterBottom variant="h5" component="h2">
                     {item.name}
                 </Typography>
